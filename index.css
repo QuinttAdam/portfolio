@@ -1,6 +1,13 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #1c1c1c;
+    background-image: url(bg.png);
+    background-size: cover; /* Cover the entire screen */
+    background-position: center center; /* Center the image */
+    background-attachment: fixed; /* Optional: Fixed background */
+    background-repeat: no-repeat; /* Prevent repetition */
+    background-color: rgba(0, 0, 0)
 }
 
 .nav {
@@ -63,7 +70,58 @@ body{
     display: none;
     
 }
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+main div{
+    background-color: black;
+    width: 60%;
+    padding-bottom: 32px;
+    align-items: center;
+    
+}
 
+h1 {
+    font-size: 50px;
+    color: white;
+    border-bottom: #5B3C90 3px solid;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+}
+.h1div{
+    margin: auto;
+}
+
+.intro{
+    width: 70%;
+    margin: auto;
+    /* background-color: black; */
+    color: white;
+    padding: 20px;
+    
+}
+.projectBtn{
+    background-color: #5B3C90;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
 
 @media (max-width: 800px) {
     .rotate-90{
@@ -89,5 +147,18 @@ body{
     }
     .hidden{
         display: none;
+    }
+    h1{
+        font-size: 50px;
+        margin-top: 20%;
+    }
+    .intro{
+        width: 80%;
+    }
+    main div{
+        width: 80%;
+    }
+    main{
+        margin-top: 50px;
     }
 }
