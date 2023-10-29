@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #1c1c1c;
 }
 .nav {
     padding: 10px;
@@ -62,6 +63,73 @@ body{
     display: none;
     
 }
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    color: #5B3C90;
+
+}
+.statementcontainer{
+    display: flex;
+    justify-content: center;
+}
+.statement{
+    width: 75%;
+    text-align: center;
+    color: white;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+h2{
+    color: #5B3C90;
+    margin-left: 100px;
+    
+}
+.text{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.textcontainer{
+    display: flex;
+    align-items: center;
+}
+.description p{
+    color: white;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.description img{
+    width: 300px;
+    height: 400px;
+}
+.skills{
+    margin-left: 0px;
+    position: relative;
+    left: 20px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.skillwrap{
+    display: flex;
+    justify-content: center;
+}
+.skillscontainer{
+    width: 80%;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+li{
+    color: white;
+}
 @media (max-width: 800px) {
     .rotate-90{
         transform: rotate(90deg);
@@ -86,5 +154,38 @@ body{
     }
     .hidden{
         display: none;
+    }
+    .description{
+        display: block;
+    }
+    .description p{
+        margin-left: 0px;
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    h2{
+        margin-left: 0px;
+        width: 150px;
+    }
+
+    .textcontainer{
+        display: flex;
+        justify-content: center;
+    }
+    .skills{
+        position: relative;
+        left: 0px;
+        margin-top: 50px;
+    }
+    .skillscontainer{
+        width: 400px; 
+    }
+    ul{
+        display: block;
+        position: relative;
+        right: 20px;
     }
 }
