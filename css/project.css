@@ -67,24 +67,79 @@ body{
     display: none;
     
 }
-
+.overview{
+    display: flex;
+    justify-content: center;
+}
+.overview div{
+    justify-content: left;
+}
 .container{
     display: flex;
     justify-content: center;
 }
+li{
+    position: relative;
+    right: 20px;
+}
 .details{
     display: flex;
-    justify-content: center;
     align-items: center;
     padding: 20px;
-    width: 600px;
+    width: 500px;
 }
 .img img{
-    width: 300px;
-    height: 400px;
+    width: 195px;
+    height: 195px;
 }
 .img{
     padding: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.color h2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 360px;
+    margin-left: 50px;
+    
+}
+.colors{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+
+}
+.colors img{
+    width: 576px;
+    height: 596px;
+}
+.prototype h2{
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    right: 320px;
+    
+}
+
+.screens{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.screen{
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+.screen img{
+    width: 218px;
+    height: 476px;
+    /* max-width: 100%;
+    height: auto; */
+    
 }
 
 @media (max-width: 800px) {
