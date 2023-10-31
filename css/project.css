@@ -167,4 +167,87 @@ li{
     .hidden{
         display: none;
     }
+
+
+
+
+
+
+
+
+
+    .overview{
+        display: block;
+    }
+    .overview div{
+        justify-content: left;
+    }
+    .container{
+        display: block;
+        
+    }
+    .container div{
+        justify-content: center;
+    }
+    li{
+        /* position: relative;
+        right: 20px; */
+    }
+    .details{
+        /* display: flex;
+        align-items: center;
+        padding: 20px; */
+        width: 420px;
+    }
+    .img img{
+        /* width: 195px;
+        height: 195px; */
+    }
+    .img{
+        /* padding: 20px;
+        display: flex;
+        align-items: center; */
+        justify-content: center;
+    }
+    .color h2{
+        display: flex;
+        justify-content: left;
+        position: static;
+        margin-left: 20px;
+        
+    }
+    .colors{
+        /* display: flex;
+        justify-content: center;
+        margin-left: 20px; */
+    
+    }
+    .colors img{
+        width: 288px;
+        height: 298px;
+    }
+    .prototype h2{
+        margin-top: 50px;
+        margin-left: 20px;
+        text-align: left;
+        position: static;
+    }
+    .screens{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-right: 20px;
+    }
+    .screen{
+        /* margin-left: 20px;
+        margin-bottom: 25px; */
+
+    }
+    .screen img{
+        width: 218px;
+        height: 476px;
+        /* max-width: 100%;
+        height: auto; */
+        
+    }
 }
