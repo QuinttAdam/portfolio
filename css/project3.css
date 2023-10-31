@@ -92,11 +92,11 @@ li{
     display: flex;
     align-items: center;
     padding: 20px;
-    width: 500px;
+    width: 450px;
 }
 .img img{
-    width: 195px;
-    height: 195px;
+    width: 182px;
+    height: 123px;
 }
 .img{
     padding: 20px;
@@ -108,8 +108,8 @@ li{
     display: flex;
     justify-content: center;
     position: relative;
-    right: 335px;
-    margin-left: 50px;
+    right: 290px;
+    margin-left: 20px;
     
 }
 .colors{
@@ -119,8 +119,8 @@ li{
 
 }
 .colors img{
-    width: 576px;
-    height: 596px;
+    width: 500px;
+    height: 210px;
 }
 .prototype h2{
     margin-top: 50px;
@@ -206,8 +206,8 @@ li{
         
     }
     .colors img{
-        width: 288px;
-        height: 298px;
+        width: 250px;
+        height: 100px;
     }
     .prototype h2{
         margin-top: 50px;

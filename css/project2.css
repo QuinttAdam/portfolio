@@ -92,12 +92,9 @@ li{
     display: flex;
     align-items: center;
     padding: 20px;
-    width: 500px;
+    width: 450px;
 }
-.img img{
-    width: 195px;
-    height: 195px;
-}
+
 .img{
     padding: 20px;
     display: flex;
@@ -108,7 +105,7 @@ li{
     display: flex;
     justify-content: center;
     position: relative;
-    right: 335px;
+    right: 320px;
     margin-left: 50px;
     
 }
@@ -119,8 +116,8 @@ li{
 
 }
 .colors img{
-    width: 576px;
-    height: 596px;
+    width: 720px;
+    height: 440px;
 }
 .prototype h2{
     margin-top: 50px;
@@ -141,8 +138,8 @@ li{
     margin-bottom: 25px;
 }
 .screen img{
-    width: 218px;
-    height: 476px;
+    width: 700px;
+    height: 500px;
 }
 
 @media (max-width: 800px) {
@@ -203,11 +200,10 @@ li{
         justify-content: left;
         position: static;
         margin-left: 20px;
-        
     }
     .colors img{
-        width: 288px;
-        height: 298px;
+        width: 360px;
+        height: 220px;
     }
     .prototype h2{
         margin-top: 50px;
@@ -222,7 +218,7 @@ li{
         margin-right: 20px;
     }
     .screen img{
-        width: 218px;
-        height: 476px;
+        width: 443px;
+        height: 300px;
     }
 }
