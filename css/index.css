@@ -9,7 +9,9 @@ body{
     background-repeat: no-repeat; /* Prevent repetition */
     background-color: rgba(0, 0, 0)
 }
-
+#active a{
+    color: #5B3C90;
+}
 .nav {
     padding: 10px;
     background-color: black; 

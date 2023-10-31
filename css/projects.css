@@ -3,6 +3,9 @@ body{
     padding: 0;
     background-color: #1c1c1c;
 }
+#active a{
+    color: #5B3C90;
+}
 .nav {
     padding: 10px;
     background-color: black; 
@@ -78,6 +81,7 @@ h1{
 .projectframe{
     background-image: url("../images/bg.png");
     background-size: cover;
+    height: 400px;
     background-position: bottom;
     margin: 20px;
     margin-top: 3%;
@@ -89,7 +93,8 @@ h1{
     background-color: #5B3C90;
     padding-left: 100px;
     padding-right: 100px;
-    margin-top: 250px;
+    padding-bottom: 30px;
+    margin-top: 280px;
     text-align: center;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;

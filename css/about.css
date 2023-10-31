@@ -3,6 +3,9 @@ body{
     padding: 0;
     background-color: #1c1c1c;
 }
+#active a{
+    color: #5B3C90;
+}
 .nav {
     padding: 10px;
     background-color: black; 

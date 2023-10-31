@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #1c1c1c;
+    color: white;
 }
 #active a{
     color: #5B3C90;
@@ -66,25 +67,26 @@ body{
     display: none;
     
 }
-p{
-    color: white;
+
+.container{
+    display: flex;
+    justify-content: center;
 }
-.quote{
-    color: #5B3C90;
-    font-weight: bold;
-    margin-top: 200px;
-    margin-bottom: 50px;
-    font-size: 72px;
-    text-align: center;
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 600px;
 }
-.question{
-    font-size: 36px;
-    text-align: center;
+.img img{
+    width: 300px;
+    height: 400px;
 }
-.info{
-    text-align: center;
-    font-size: 20px;
+.img{
+    padding: 20px;
 }
+
 @media (max-width: 800px) {
     .rotate-90{
         transform: rotate(90deg);
@@ -109,14 +111,5 @@ p{
     }
     .hidden{
         display: none;
-    }
-    .quote{
-        font-size: 36px;
-    }
-    .question{
-        font-size: 24px;
-    }
-    .info{
-        font-size: 16px;
     }
 }
