@@ -4,6 +4,12 @@ body{
     background-color: #1c1c1c;
     color: white;
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Goblin One', serif;
+}
+p, a{
+    font-family: 'Mulish', sans-serif;;
+}
 #active a{
     color: #5B3C90;
 }
@@ -102,7 +108,7 @@ li{
     display: flex;
     justify-content: center;
     position: relative;
-    right: 360px;
+    right: 335px;
     margin-left: 50px;
     
 }
@@ -120,7 +126,7 @@ li{
     margin-top: 50px;
     text-align: center;
     position: relative;
-    right: 320px;
+    right: 275px;
     
 }
 
@@ -189,24 +195,10 @@ li{
     .container div{
         justify-content: center;
     }
-    li{
-        /* position: relative;
-        right: 20px; */
-    }
     .details{
-        /* display: flex;
-        align-items: center;
-        padding: 20px; */
         width: 420px;
     }
-    .img img{
-        /* width: 195px;
-        height: 195px; */
-    }
     .img{
-        /* padding: 20px;
-        display: flex;
-        align-items: center; */
         justify-content: center;
     }
     .color h2{
@@ -215,12 +207,6 @@ li{
         position: static;
         margin-left: 20px;
         
-    }
-    .colors{
-        /* display: flex;
-        justify-content: center;
-        margin-left: 20px; */
-    
     }
     .colors img{
         width: 288px;
@@ -238,16 +224,8 @@ li{
         flex-wrap: wrap;
         margin-right: 20px;
     }
-    .screen{
-        /* margin-left: 20px;
-        margin-bottom: 25px; */
-
-    }
     .screen img{
         width: 218px;
         height: 476px;
-        /* max-width: 100%;
-        height: auto; */
-        
     }
 }

@@ -3,6 +3,12 @@ body{
     padding: 0;
     background-color: #1c1c1c;
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Goblin One', serif;
+}
+p, a{
+    font-family: 'Mulish', sans-serif;;
+}
 #active a{
     color: #5B3C90;
 }
@@ -72,6 +78,9 @@ h1{
     color: #5B3C90;
     margin-top: 50px;
 }
+h2{
+    font-size: 16px;
+}
 .projectcard{
     display: flex;
     justify-content: center;
@@ -79,22 +88,28 @@ h1{
     
 }
 .projectframe{
-    background-image: url("../images/bg.png");
     background-size: cover;
     height: 400px;
-    background-position: bottom;
+    background-position: top;
     margin: 20px;
     margin-top: 3%;
     border-radius: 10px;
 
 }
+.projectframe1{
+    background-image: url("../images/buffelboy.png");
+}
+.projectframe2{
+    background-image: url("../images/whosQ.png");
+}
+.projectframe3{
+    background-image: url("../images/ugc.png");
+}
 .projectdetails{
-    
     background-color: #5B3C90;
-    padding-left: 100px;
-    padding-right: 100px;
+    width: 300px;
     padding-bottom: 30px;
-    margin-top: 280px;
+    margin-top: 295px;
     text-align: center;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;

@@ -3,6 +3,12 @@ body{
     padding: 0;
     background-color: #1c1c1c;
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Goblin One', serif;
+}
+p, a{
+    font-family: 'Mulish', sans-serif;;
+}
 #active a{
     color: #5B3C90;
 }
@@ -89,7 +95,7 @@ h1{
 }
 h2{
     color: #5B3C90;
-    margin-left: 100px;
+    margin-left: 80px;
     
 }
 .text{
@@ -103,7 +109,7 @@ h2{
 .description p{
     color: white;
     width: 400px;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-top: 10px;
 }
 .description img{
@@ -171,7 +177,7 @@ li{
     }
     h2{
         margin-left: 0px;
-        width: 150px;
+        width: 180px;
     }
 
     .textcontainer{

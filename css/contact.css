@@ -3,6 +3,12 @@ body{
     padding: 0;
     background-color: #1c1c1c;
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Goblin One', serif;
+}
+p, a{
+    font-family: 'Mulish', sans-serif;;
+}
 #active a{
     color: #5B3C90;
 }

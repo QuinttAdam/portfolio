@@ -9,6 +9,12 @@ body{
     background-repeat: no-repeat; /* Prevent repetition */
     background-color: rgba(0, 0, 0)
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Goblin One', serif;
+}
+p, a{
+    font-family: 'Mulish', sans-serif;;
+}
 #active a{
     color: #5B3C90;
 }
@@ -87,7 +93,7 @@ main div{
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     border-bottom: #5B3C90 3px solid;
     width: 200px;
@@ -151,7 +157,7 @@ h1 {
         display: none;
     }
     h1{
-        font-size: 50px;
+        font-size: 36px;
         margin-top: 20%;
     }
     .intro{
