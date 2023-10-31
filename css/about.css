@@ -18,6 +18,9 @@ p, a{
     color: white;
     
 }
+.logo{
+    padding-left: 20px;
+}
 .links-mobile div a{
     text-decoration: none;
     color: white;
@@ -160,6 +163,7 @@ li{
     .links-mobile {
         display: flex;
         flex-direction: column;
+        padding-left: 20px;
     }
     .hidden{
         display: none;
