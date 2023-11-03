@@ -171,15 +171,6 @@ li{
     .hidden{
         display: none;
     }
-
-
-
-
-
-
-
-
-
     .overview{
         display: block;
     }
@@ -194,7 +185,10 @@ li{
         justify-content: center;
     }
     .details{
-        width: 420px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 0px;
     }
     .img{
         justify-content: center;
@@ -203,15 +197,18 @@ li{
         display: flex;
         justify-content: left;
         position: static;
-        margin-left: 20px;
+        margin-left: 10%;
+    }
+    .colors{
+        margin-left: 10%;
     }
     .colors img{
-        width: 360px;
-        height: 220px;
+        width: 80%;
+        height: auto;
     }
     .prototype h2{
         margin-top: 50px;
-        margin-left: 20px;
+        margin-left: 10%;
         text-align: left;
         position: static;
     }
@@ -221,8 +218,11 @@ li{
         flex-wrap: wrap;
         margin-right: 20px;
     }
+    .screen{
+        margin-left: 10%;
+    }
     .screen img{
-        width: 443px;
-        height: 300px;
+        width: 80%;
+        height: auto;
     }
 }
