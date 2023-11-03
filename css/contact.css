@@ -83,7 +83,7 @@ p{
     font-weight: bold;
     margin-top: 200px;
     margin-bottom: 50px;
-    font-size: 72px;
+    font-size: 50px;
     text-align: center;
 }
 .question{
@@ -93,6 +93,15 @@ p{
 .info{
     text-align: center;
     font-size: 20px;
+}
+.contactmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mail{
+    margin-left: 10px;
+    color: white;
 }
 @media (max-width: 800px) {
     .rotate-90{
@@ -121,7 +130,7 @@ p{
         display: none;
     }
     .quote{
-        font-size: 36px;
+        font-size: 28px;
     }
     .question{
         font-size: 24px;
