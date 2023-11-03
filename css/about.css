@@ -188,13 +188,16 @@ li{
         display: flex;
         justify-content: center;
     }
+    .description p{
+        width: 350px;
+    }
     .skills{
         position: relative;
         left: 0px;
         margin-top: 50px;
     }
     .skillscontainer{
-        width: 400px; 
+        width: 350px; 
     }
     ul{
         display: block;
