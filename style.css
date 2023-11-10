@@ -1,0 +1,688 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1c1c1c;
+}
+.background {
+  background-image: url(../images/bg.png);
+  background-size: cover; /* Cover the entire screen */
+  background-position: center center; /* Center the image */
+  background-attachment: fixed; /* Optional: Fixed background */
+  background-repeat: no-repeat; /* Prevent repetition */
+  background-color: rgba(0, 0, 0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Goblin One", serif;
+}
+
+p,
+a,
+li {
+  font-family: "Mulish", sans-serif;
+}
+
+#active a {
+  color: #5b3c90;
+}
+
+.nav {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  padding-left: 20px;
+}
+
+.links-mobile div a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.links-mobile div a:hover {
+  color: #5b3c90;
+}
+
+.links-mobile div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logolinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links div a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.links div a:hover {
+  color: #5b3c90;
+}
+
+.links div {
+  padding-right: 20px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  cursor: pointer;
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+
+.menu-icon:hover {
+  color: #5b3c90;
+}
+
+.links-mobile {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  color: #5b3c90;
+}
+
+.statementcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.statement {
+  width: 75%;
+  text-align: center;
+  color: white;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+h2 {
+  color: #5b3c90;
+  margin-left: 80px;
+}
+
+.text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.textcontainer {
+  display: flex;
+  align-items: center;
+}
+
+.description p {
+  color: white;
+  width: 400px;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.description img {
+  width: 300px;
+  height: 400px;
+}
+
+.skills {
+  margin-left: 0px;
+  position: relative;
+  left: 20px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.skillwrap {
+  display: flex;
+  justify-content: center;
+}
+
+.skillscontainer {
+  width: 80%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+li {
+  color: white;
+}
+p {
+  color: white;
+}
+
+.quote {
+  color: #5b3c90;
+  font-weight: bold;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.question {
+  font-size: 36px;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+  font-size: 20px;
+}
+
+.contactmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mail {
+  margin-left: 10px;
+  color: white;
+}
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+main div {
+  background-color: black;
+  width: 60%;
+  padding-bottom: 32px;
+  align-items: center;
+}
+
+.h1div h1 {
+  font-size: 40px;
+  color: white;
+  border-bottom: #5b3c90 3px solid;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10%;
+  text-align: center;
+}
+.h1div {
+  margin: auto;
+}
+
+.intro {
+  width: 70%;
+  margin: auto;
+  /* background-color: black; */
+  color: white;
+  padding: 20px;
+}
+.projectBtn {
+  background-color: #5b3c90;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  display: block;
+  /* max-width: 70%; */
+  width: 70%;
+}
+h1 {
+  text-align: center;
+  color: #5b3c90;
+  margin-top: 50px;
+}
+h2 {
+  font-size: 16px;
+}
+.projectcard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.projectframe {
+  background-size: cover;
+  height: 400px;
+  background-position: top;
+  margin: 20px;
+  margin-top: 3%;
+  border-radius: 10px;
+}
+.projectframe1 {
+  background-image: url("../images/buffelboy.png");
+}
+.projectframe2 {
+  background-image: url("../images/whosQ.png");
+}
+.projectframe3 {
+  background-image: url("../images/ugc.png");
+}
+.projectdetails {
+  background-color: #5b3c90;
+  width: 300px;
+  padding-bottom: 30px;
+  margin-top: 295px;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.projectdetails h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  margin-left: 0px;
+}
+.btn {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.btn:hover {
+  background-color: #1c1c1c;
+}
+
+
+
+
+
+.overview{
+    display: flex;
+    justify-content: center;
+}
+.overview div{
+    justify-content: left;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.buffelboy{
+    text-align: left;
+    margin-top: 0px;
+}
+.buffelskills{
+    margin-left: 0px;
+    
+}
+.buffelskill{
+    margin-bottom: 30px;
+}
+li{
+    position: relative;
+    right: 20px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 500px;
+}
+.details div{
+    margin-top: 30px;
+}
+.img img{
+    width: 195px;
+    height: 195px;
+}
+.img{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.color h2{
+    display: flex;
+    justify-content: left;
+    position: relative;
+    left: 20px;
+    margin-left: 0px;
+    
+}
+.colors{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+
+}
+.colors img{
+    width: 576px;
+    height: 596px;
+}
+.prototype h2{
+    margin-top: 50px;
+    text-align: left;
+    position: relative;
+    left: 20px;
+    margin-left: 0px;
+    
+}
+
+.screens{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.screen{
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+.screen img{
+    width: 218px;
+    height: 476px;
+}
+
+
+
+
+.whosq{
+    text-align: left;
+}
+.whosqpicture{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.details h2{
+    margin-left: 0px;
+    margin-top: 30px;
+}
+.details ul{
+    display: block;
+}
+.whosqcolors{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    
+}
+.whosqcolors img{
+    width: 648px;
+    height: 396px;
+}
+.color h2, .prototype h2{
+    width: 200px;
+    
+}
+.mockup img{
+    width: 630px;
+    height: 450px;
+}
+.mockup{
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+
+
+.ugclogo img{
+    width: 182px;
+    height: 123px;
+}
+.ugclogo{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.ugctitle{
+    text-align: left;
+    margin-top: 0px;
+}
+.ugcskill{
+    margin-bottom: 30px;
+}
+@media (max-width: 800px) {
+  .rotate-90 {
+    transform: rotate(90deg);
+  }
+
+  .logolinks {
+    display: block;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .logomenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .links-mobile {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .description {
+    display: block;
+  }
+
+  .description p {
+    margin-left: 0px;
+  }
+
+  .img {
+    display: flex;
+    justify-content: c=enter;
+    margin-bottom: 50px;
+  }
+
+  h2 {
+    margin-left: 0px;
+    width: 180px;
+  }
+
+  .textcontainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .description p {
+    width: 350px;
+  }
+  .pfp{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+  .skills {
+    position: relative;
+    left: 0px;
+    margin-top: 50px;
+  }
+
+  .skillscontainer {
+    width: 350px;
+  }
+
+  ul {
+    display: block;
+    /* position: relative; */
+    /* right: 20px; */
+  }
+  .quote {
+    font-size: 28px;
+  }
+  .question {
+    font-size: 24px;
+  }
+  .info {
+    font-size: 16px;
+  }
+  .h1div h1 {
+    font-size: 36px;
+    margin-top: 20%;
+    width: 250px;
+  }
+  .intro {
+    width: 80%;
+  }
+  main div {
+    width: 80%;
+    margin-bottom: 64px;
+  }
+  main {
+    margin-top: 25px;
+  }
+  .projectBtn {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .projectdetails h2 {
+    width: auto;
+  }
+  .projectframe {
+    margin-bottom: 70px;
+  }
+
+
+
+
+
+.overview{
+    display: block;
+}
+.overview div{
+    justify-content: left;
+}
+.container{
+    display: block;
+    
+}
+.container div{
+    justify-content: center;
+}
+.whosq{
+    margin-top: 0px;
+}
+.whosqskill{
+    margin-bottom: 0px;
+}
+.whosqpicture{
+    margin-top: 30px;
+}
+.details{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 0px;
+}
+.buffelboy{
+    margin-top: 20px;
+}
+.buffelskill{
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.img{
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.color h2{
+    display: flex;
+    justify-content: left;
+    position: static;
+    margin-left: 10%;
+}
+.colors{
+    margin-left: 0px;
+}
+.colors img{
+    width: 288px;
+    height: 298px;
+    margin-left: 10%;
+}
+.prototype h2{
+    margin-top: 50px;
+    margin-left: 10%;
+    text-align: left;
+    position: static;
+}
+.screens{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 10%;
+}
+.screen{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.screen img{
+    width: 218px;
+    height: 476px;
+}
+.whosqcolors{
+    margin-left: 10%;
+}
+.whosqcolors img{
+    width: 80%;
+    height: auto;
+}
+.mockup{
+    margin-left: 0px;
+}
+.mockup img{
+    width: 80%;
+    height: auto;
+    
+}
+}

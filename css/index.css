@@ -164,7 +164,7 @@ h1 {
     .hidden{
         display: none;
     }
-    h1{
+    .h1div h1{
         font-size: 36px;
         margin-top: 20%;
         width: 250px;
