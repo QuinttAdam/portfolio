@@ -114,14 +114,17 @@ h1 {
 
 .statement {
   width: 75%;
-  text-align: center;
+  text-align: left;
   color: white;
 }
-
 .description {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 100px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+    
 }
 
 h2 {
@@ -129,49 +132,60 @@ h2 {
   margin-left: 80px;
 }
 
-.text {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 .textcontainer {
   display: flex;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .description p {
   color: white;
-  width: 400px;
-  margin-left: 80px;
+  /* width: 400px; */
+  margin-left: 0px;
   margin-top: 10px;
 }
+.description h2{
+    margin-left: 0px;
+}
 
-.description img {
+.pfp img {
   width: 300px;
   height: 400px;
+}
+.pfp{
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
 
 .skills {
   margin-left: 0px;
   position: relative;
   left: 20px;
-  margin-top: 100px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 12px;
 }
 
 .skillwrap {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .skillscontainer {
   width: 80%;
+  position: relative;
+  right: 20px;
 }
 
+.skillscontainer ul{
+    display: block;
+    position: relative;
+    left: 20px;
+    margin-top: 0px;
+}
 ul {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 
 li {
@@ -542,7 +556,7 @@ li{
 }
   .skills {
     position: relative;
-    left: 0px;
+    left: 20px;
     margin-top: 50px;
   }
 
