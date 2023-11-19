@@ -1,5 +1,3 @@
 User-Agent: *
-Disallow: /private/
-Disallow: /restricted/
-Allow: /public/
+
 Sitemap: https://quinttadam.be/sitemap.xml
