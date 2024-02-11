@@ -489,6 +489,104 @@ li{
 .ugcskill{
     margin-bottom: 30px;
 }
+.stagepage{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.stagecard{
+  background-color: #5b3c90;
+  
+  width: 300px;
+  padding-bottom: 30px;
+  margin-top: 295px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px;
+}
+.stagecard h2{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  width: 300px;
+  color: white;
+  text-align: center;
+}
+.stagecard img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.stageimg1{
+    width: 300px;
+    height: 300px;
+}
+.stageimg2{
+  width: 300px;
+  height: 300px;
+}
+.stageimg3{
+  width: 300px;
+  height: 300px;
+}
+.stageimg4{
+  width: 300px;
+  height: 300px;
+}
+.stageimg5{
+  width: 300px;
+  height: 300px;
+}
+.stageimg6{
+  width: 300px;
+  height: 300px;
+}
+.stageimg7{
+  width: 300px;
+  height: 300px;
+}
+.stageimg8{
+  width: 300px;
+  height: 300px;
+}
+.stageintrobtn{
+  background-color: #5b3c90;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+  display: block;
+  /* max-width: 70%; */
+  width: 20%;
+  margin-bottom: 50px;
+}
+.stageintro{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.stagequintt{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+.stagequintt img{
+  width: 300px;
+  height: 400px;
+}
 @media (max-width: 800px) {
   .rotate-90 {
     transform: rotate(90deg);
@@ -532,7 +630,7 @@ li{
 
   .img {
     display: flex;
-    justify-content: c=enter;
+    justify-content: center;
     margin-bottom: 50px;
   }
 
@@ -605,6 +703,16 @@ li{
     margin-bottom: 70px;
   }
 
+  .stageintro{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  }
+  .stageintrobtn{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  }
 
 
 
