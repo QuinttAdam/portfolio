@@ -131,6 +131,10 @@ h2 {
   color: #5b3c90;
   margin-left: 80px;
 }
+h3 {
+  color: #5b3c90;
+  margin-left: 80px;
+}
 
 .textcontainer {
   display: flex;
@@ -575,6 +579,42 @@ li{
   margin-left: 25%;
   margin-right: 25%;
 }
+.week{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+h2.week{
+  font-size: 24px;
+}
+h3.week{
+  font-size: 18px;
+}
+.stageproject img{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.stageproject2 img{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.stageproject3 img{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
 .stagequintt{
   display: flex;
   justify-content: center;
@@ -707,6 +747,18 @@ li{
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
+  }
+  .week{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    
+  }
+  h2.week{
+    font-size: 24px;
+  }
+  h3.week{
+    font-size: 18px;
   }
   .stageintrobtn{
     margin-left: 10%;
